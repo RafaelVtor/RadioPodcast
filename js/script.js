@@ -28,17 +28,7 @@ window.addEventListener('load', () => {
                 console.log(`./img/${channel.image}.jpg`)
                 podcastImage.style.backgroundImage = `url("./img/${channel.image}.jpg")`
                 description.textContent = channel.description
-
             }
-
         })
-
-
     }
-
-
-
-
-
-}
-)
+})
